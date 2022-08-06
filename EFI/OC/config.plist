@@ -467,7 +467,7 @@
                     <key>Comment</key>
                     <string>V2.1.0 | Intel Onboard Bluetooth</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string></string>
                     <key>MaxKernel</key>
@@ -673,7 +673,7 @@
                 <key>HibernateMode</key>
                 <string>None</string>
                 <key>HideAuxiliary</key>
-                <true/>
+                <false/>
                 <key>LauncherOption</key>
                 <string>Disabled</string>
                 <key>LauncherPath</key>
@@ -687,7 +687,7 @@
                 <key>PickerVariant</key>
                 <string>Auto</string>
                 <key>PollAppleHotKeys</key>
-                <true/>
+                <false/>
                 <key>ShowPicker</key>
                 <false/>
                 <key>TakeoffDelay</key>
@@ -698,9 +698,9 @@
             <key>Debug</key>
             <dict>
                 <key>AppleDebug</key>
-                <false/>
+                <true/>
                 <key>ApplePanic</key>
-                <false/>
+                <true/>
                 <key>DisableWatchDog</key>
                 <false/>
                 <key>DisplayDelay</key>
@@ -849,8 +849,6 @@
                     <string>ocwv</string>
                 </array>
             </dict>
-            <key>LegacyEnable</key>
-            <false/>
             <key>LegacyOverwrite</key>
             <false/>
             <key>LegacySchema</key>
@@ -1000,6 +998,8 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>HfsPlus.efi</string>
                 </dict>
@@ -1010,6 +1010,8 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>OpenRuntime.efi</string>
                 </dict>
@@ -1020,6 +1022,8 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>OpenCanopy.efi</string>
                 </dict>
@@ -1030,6 +1034,8 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>ResetNvramEntry.efi</string>
                 </dict>
