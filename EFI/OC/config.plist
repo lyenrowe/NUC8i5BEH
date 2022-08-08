@@ -431,7 +431,7 @@
                     <key>Comment</key>
                     <string>V2.6.3 | Intel Onboard Bluetooth for Monterey</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/BlueToolFixup</string>
                     <key>MaxKernel</key>
