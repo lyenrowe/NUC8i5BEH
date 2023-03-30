@@ -1,5 +1,5 @@
 # Nucintosh
-- Version：**230222**
+- Version：**220628**
 - Maintainer：**维奇**[@weachy](https://github.com/weachy)
 - [Always love dreams, and be grateful]
 
@@ -7,10 +7,7 @@
 If you want to learn more about hackintosh with Intel NUC 'Bean Canyon'. Please visit: https://u.nu/bean
 
 
-* 2022.09: 最近折腾适合配合黑果使用的无线蓝牙耳机，总结了一篇文章，希望能帮到有相关需求的朋友： https://zhuanlan.zhihu.com/p/569109027
-
-
-* 当前引导支持 Mojave、Catalina、Big Sur、Monterey、Ventura（10.14～13.x）。
+* 当前引导支持 Mojave、Catalina、Big Sur、Monterey（10.14～12.x）。
 
 
 ## OpenCore 实现双系统引导的说明：
@@ -73,32 +70,6 @@ If you want to learn more about hackintosh with Intel NUC 'Bean Canyon'. Please 
 
 
 ## 更新日志（Changelog）：
-
-2023-02-22
-1. 2023 年第一更：更新 OpenCore 0.8.9 正式版。
-2. 例行升级 kext 版本（Lilu、WhateverGreen、AppleALC、RestrictEvents、FeatureUnlock）。
-3. 修复部分群友反馈睡眠唤醒无法点亮显示器的问题。
-4. 如果在 Ventura 系统出现电脑闲置一段时间后变卡顿，大概率为新系统下的硬盘兼容问题，建议执行此命令 sudo mdutil -a -i off ，重启生效。
-
-2022-12-13
-1. 更新 OpenCore 0.8.7 正式版。
-2. 例行升级 kext 版本（WhateverGreen、AppleALC、RestrictEvents、FeatureUnlock、RealtekCardReaderFriend、RealtekCardReader）。
-
-2022-10-24
-1. 更新 OpenCore 0.8.5 正式版。
-2. 例行升级 kext 版本（BlueToolFixup）。
-3. 支持升级到 macOS 13 正式版，欢迎在 NUC 群内交流反馈。
-* 最近在折腾适合搭配黑苹果使用的无线蓝牙耳机，总结了一篇文章，希望能帮到有相关需求的朋友：https://zhuanlan.zhihu.com/p/569109027
-
-2022-09-23
-1. 更新 OpenCore 0.8.4 正式版。
-2. 例行升级 kext 版本（AppleALC、CPUFriend、FeatureUnlock）。
-3. 支持升级到 macOS 13 beta（当前最新版本为 Beta8，大概率可以支持秋季的正式版，届时请留意交流群内反馈）。
-
-2022-08-07
-1. 更新 OpenCore 0.8.3 正式版。
-2. 例行升级 kext 版本（AppleALC、AirportBrcmFixup、BlueToolFixup、FeatureUnlock、Lilu、NVMeFix、RestrictEvents、VirtualSMC、WhateverGreen）。
-3. 支持升级到 macOS 13 beta（当前最新版本为 Beta4，大概率也是可以支持秋季的正式版，届时请留意交流群内反馈）。
 
 2022-06-28
 1. 修复耳机孔识别不正常的问题。
